@@ -1,0 +1,28 @@
+{
+  "name": "meanstackapp",
+  "version": "1.0.0",
+  "description": "MEAN stack with Angular 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "cd client && ng build --prod && cd .. && node index.js"
+  },
+  "keywords": [
+    "MEAN",
+    "Stack",
+    "Angular",
+    "2",
+    "App"
+  ],
+  "author": "David Valdez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.6",
+    "ng2-file-upload": "^1.2.1"
+  }
+}
